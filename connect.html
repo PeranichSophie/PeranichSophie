@@ -63,7 +63,7 @@
         </p>
       </div>
       <div class="col-md-10 mx-auto col-lg-5">
-        <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary" onsubmit="sendEmail(); reset(); return false;">
+        <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
           <div class="mb-3">
             <label for="exampleFormControlInput1" for="validationTextarea" class="form-label">Your Name</label>
             <input type="name" class="form-control" id="exampleFormControlInput1" required>
@@ -89,34 +89,9 @@
                 </div>
               </div>
           </div>
-          <button type="submit" class="w-100 btn btn-primary"
-            onsubmit="sendEmail(); reset(); return false;">Connect!</button>
+          <button type="submit" class="w-100 btn btn-primary">Connect!</button>
         </form>
       </div>
-       <script src="https://smtpjs.com/v3/smtp.js">
-</script>
-  <script type="text/javascript">
-    function sendEmail() {
-  Email.send({
-    Host: "smtp.elasticemail.com",
-    Username: "peranichsophie@gmail.com",
-    Password: "7400692F834FE72EFA54C908EBF66600831B",
-    To: "peranichsophie@gmail.com",
-    From: doccument.getElementById("email").value,
-    Subject: "New Connect from Website Inquiry",
-    Body:
-      "Name: " +
-      document.getElementById("name").value +
-      "<br/> Email: " +
-      document.getElementById("email").value +
-      "<br/> Message: " +
-      document.getElementById("message").value +
-      "<br/>",
-  }).then(function (message) {
-    alert("mail sent successfully");
-  });
-}
-  </script>
     </div>
   </div>
   <div class="container px-4 py-5" id="featured-3">
