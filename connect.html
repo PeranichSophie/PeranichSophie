@@ -150,6 +150,22 @@
   <script src="./snippets.js"></script>
   <script src="https://smtpjs.com/v3/smtp.js">
   </script>
+  <script>
+    function sendEmail(){
+    Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "peranichsophie@gmail.com",
+    Password : "7400692F834FE72EFA54C908EBF66600831B",
+    To : 'peranichsophie@gmail.com',
+    From : "you@isp.com",
+    Subject : "This is the subject",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+
+    }
+  </script>
 </body>
 
 </html>
