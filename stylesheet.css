@@ -1,0 +1,25 @@
+.headshot {
+  border-radius: 20px;
+  border: solid black 8px;
+  height: 298px;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5);
+  background-size: 150% 150%;
+  margin: 10px;
+}
+
+.navbar {
+  background-color: black;
+}
+
+a.navbar-brand {
+  color: #e73c7e;
+}
+
+.btn-primary {
+  background-color: #e73c7e !important;
+  border-color: #e73c7e !important;
+}
+
+#icon-grid img {
+  margin-right: 10px;
+}
