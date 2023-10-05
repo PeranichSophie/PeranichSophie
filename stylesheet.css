@@ -23,3 +23,15 @@ a.navbar-brand {
 #icon-grid img {
   margin-right: 10px;
 }
+
+.resume-header {
+  background-color: #e2a3bb15;
+}
+.resume-header-text {
+  color: #e73c7e;
+}
+
+.experience-header {
+  background-color: #e2a3bb15;
+  color: #e73c7e;
+}
