@@ -35,3 +35,18 @@ a.navbar-brand {
   background-color: #e2a3bb15;
   color: #e73c7e;
 }
+
+.index-header {
+  background-color: #e2a3bb15;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.index-header-text {
+  color: #e73c7e;
+}
+
+.project-background {
+  background-color: #e2a3bb15;
+}
