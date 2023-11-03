@@ -1,23 +1,14 @@
-.headshot {
-  border-radius: 20px;
-  border: solid black 8px;
-  height: 298px;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5);
-  background-size: 150% 150%;
-  margin: 10px;
-}
-
 .navbar {
   background-color: black;
 }
 
 a.navbar-brand {
-  color: #e73c7e;
+  color: #eb0f64;
 }
 
 .btn-primary {
-  background-color: #e73c7e !important;
-  border-color: #e73c7e !important;
+  background-color: #eb0f64 !important;
+  border-color: #eb0f64 !important;
 }
 
 #icon-grid img {
@@ -28,25 +19,51 @@ a.navbar-brand {
   background-color: #e2a3bb15;
 }
 .resume-header-text {
-  color: #e73c7e;
+  color: #eb0f64;
 }
 
 .experience-header {
   background-color: #e2a3bb15;
-  color: #e73c7e;
+  color: #eb0f64;
 }
 
 .index-header {
   background-color: #e2a3bb15;
   border-radius: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
 }
 
 .index-header-text {
-  color: #e73c7e;
+  color: #eb0f64;
 }
 
 .project-background {
   background-color: #e2a3bb15;
+}
+
+.header-text {
+  color: 000000;
+}
+
+.portfolioIMG {
+  padding: 10px;
+}
+
+.portfolioCard {
+  margin-bottom: 10px;
+}
+
+.card {
+  border-color: #e2a3bb15;
+}
+.card-title {
+  color: #eb0f64;
+}
+
+strong {
+  color: #eb0f64;
+}
+
+a {
+  text-decoration: none;
 }

@@ -14,5 +14,7 @@ function sendEmail() {
       "<br/> Message: " +
       document.getElementById("message").value +
       "<br/>",
-  }).then((message) => alert(message));
+  }).then(function (message) {
+    alert("mail sent successfully");
+  });
 }
