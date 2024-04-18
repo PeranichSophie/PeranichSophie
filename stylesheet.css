@@ -66,4 +66,13 @@ strong {
 
 a {
   text-decoration: none;
+  color: #eb0f64;
+}
+
+.pink-font {
+  color: #eb0f64;
+}
+
+hr {
+  color: #eb0f64;
 }
