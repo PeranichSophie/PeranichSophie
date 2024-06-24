@@ -76,3 +76,12 @@ a {
 hr {
   color: #eb0f64;
 }
+
+.card-header {
+  background-color: #e2a3bb15;
+  border-color: #e2a3bb15;
+}
+.card {
+  background-color: #fff;
+  border-color: #e2a3bb15;
+}
